@@ -25,14 +25,20 @@ html{
 }
 
 .card{
-    height: 100px;
-    width: 150px;
+    height: 200px;
+    width: 300px;
     background-color: #cfffdc;
     border-radius: 1.4rem;
     border: 0.2rem solid #253d2c;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .card h1{
     font-size: 2.4rem;
     text-align: center;
+    text-transform: capitalize;
 }
